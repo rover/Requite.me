@@ -1,0 +1,27 @@
+@import '/public/stylesheets/reset.less';
+@import '/public/stylesheets/grid.less';
+
+
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+
+article {
+   .column(6);
+	background-color:green;
+}
+aside {
+   .column(6);
+	background-color:blue;
+}
+
+@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 0) {
+    /* iPhone CSS rules here */
+   article {
+      .column(12);
+   }
+   aside {
+      .column(12);
+   }
+}

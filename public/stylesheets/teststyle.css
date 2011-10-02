@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  width: 100%;
+  float: left;
+}
+body {
+  background-color: #ddd;
+  font: 1em "Museo", serif;
+  font-weight: 300;
+  background-image: url('http://cloudmir.com/1100sq.png');
+  background-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+input {
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0.3em;
+  -moz-box-shadow: 5px 5px 2.5px #a2c0e7;
+  -webkit-box-shadow: 5px 5px 2.5px #a2c0e7;
+  box-shadow: 5px 5px 2.5px #a2c0e7;
+}
+tupper {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  max-width: 960px;
+  margin: 1.3em;
+  background-color: rgba(255, 255, 255, 0.97);
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 0.5em;
+  -moz-box-shadow: 10px 10px 5px #605853;
+  -webkit-box-shadow: 10px 10px 5px #605853;
+  box-shadow: 10px 10px 5px #605853;
+}
+header {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  height: 71px;
+  margin: 0.5em;
+}
+logo {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 22.916666666666664%;
+  margin: 0 1.0416666666666665%;
+  background: url('http://cloudmir.com/requitesm.png') no-repeat;
+  height: 71px;
+  width: 150px;
+}
+u_twit_top {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 47.91666666666667%;
+  margin: 0 1.0416666666666665%;
+  height: 90%;
+}
+search {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 22.916666666666664%;
+  margin: 0 1.0416666666666665%;
+  padding: 0.8em;
+}
+main_section {
+  overflow: scroll;
+}
+userprime {
+  background-color: #dfffff;
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin-left: 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 1em;
+}
+mainblock {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
+h2 {
+  font-size: 2.5em ;
+  text-align: center;
+}
+#crushes {
+  margin-left: 4em;
+  padding: 1em;
+}
+li.crushes {
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0.3em;
+}
+li.crushes:nth-child(even) {
+  background-color: #ddf1fa;
+}
+a.cun {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.cinfo {
+  padding-left: 1em;
+  color: #888;
+}
+p.unote {
+  padding: 0.5em 0em 1em 3em;
+}
+heavy {
+  font-weight: 500;
+}
+footer {
+  padding: 0.5em;
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
+footer ul {
+  display: inline-block;
+  overflow: hidden;
+  width: 102.08333333333333%;
+  margin: 0 -1.0416666666666665%;
+}
+footer ul li {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 47.91666666666667%;
+  margin: 0 1.0416666666666665%;
+  text-align: center;
+}
